@@ -1,0 +1,50 @@
+body{
+    background: #000;            
+}
+fieldset{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 45%;
+    border-radius: 3px;
+    color: #fff !important;
+    border: 0px solid transparent;
+    max-width: 20%;
+}
+table{
+    width: 30vw;
+    height: 50vh;
+    border-radius: 6px;
+    border: 1px dotted #ccc;
+    /* background: rgba(0, 0, 0, 0) url("../sample.jpg") no-repeat scroll center center / cover; */
+    margin: 0 auto !important;
+}
+table, tr, td{
+    
+    margin: 0px;
+    padding: 0px;
+}
+table tr{
+    width: 100%;
+}
+table td{
+    width: calc(100% /10);
+    height: 15vh;
+    /* border: 1px dotted #c3c3c3; */
+}
+
+button{
+    display: block;
+    position: fixed;
+    right: 0px;
+    top: 45%;
+    background: dodgerblue;
+    color: #fff;
+    border: 0px solid transparent;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.14);
+    height: 45px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}
